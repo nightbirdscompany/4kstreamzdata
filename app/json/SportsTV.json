@@ -27,6 +27,11 @@
         "channel_links": [
             {
                 "link_title": "A Sports",
+                "channel_url": "https://tvsen6.aynaott.com/asports/tracks-v1a1/mono.ts.m3u8",
+                "link_type" : "none"
+            },
+            {
+                "link_title": "A Sports",
                 "channel_url": "219689.m3u8",
                 "link_type" : "opplex"
             }
@@ -77,6 +82,17 @@
         ]
     },
     {
+        "channel_name": "FIFA Plus",
+        "channel_logo": "https://i.pinimg.com/736x/bd/ab/68/bdab6851e7bb4bee055f6d6f55900de2.jpg",
+        "channel_links": [
+            {
+                "link_title": "Fifa Plus",
+                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8",
+                "link_type" : "none"
+            }
+        ]
+    },
+    {
         "channel_name": "Geo Super HD",
         "channel_logo": "https://i.postimg.cc/tR6fDSvV/geo-super-logo-9-EE9-DB603-E-seeklogo-com.png",
         "channel_links": [
@@ -98,6 +114,11 @@
         "channel_name": "Ptv SPORTS",
         "channel_logo": "https://upload.wikimedia.org/wikipedia/en/e/e4/PTV_Sports.png",
         "channel_links": [
+            {
+                "link_title": "Ptv SPORTS",
+                "channel_url": "https://tvsen5.aynaott.com/PtvSports/tracks-v1a1/mono.ts.m3u8",
+                "link_type" : "none"
+            },
             {
                 "link_title": "Ptv SPORTS",
                 "channel_url": "217968.m3u8",
@@ -242,7 +263,7 @@
         "channel_links": [
             {
                 "link_title": "Sony Ten 1",
-                "channel_url": "https://tataplay.slivcdn.com/hls/live/2011747/TEN1HD/master.m3u8",
+                "channel_url": "https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_1_hd/tracks-v1a1/mono.m3u8",
                 "link_type" : "none"
             },
             {
@@ -259,7 +280,7 @@
 
             {
                 "link_title": "Sony Ten 2",
-                "channel_url": "https://tataplay.slivcdn.com/hls/live/2020434/TEN2HD/master.m3u8",
+                "channel_url": "https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_2_hd/tracks-v1a1/mono.m3u8",
                 "link_type" : "none"
             },
             
@@ -308,7 +329,7 @@
         "channel_links": [
             {
                 "link_title": "Sony Ten 5",
-                "channel_url": "https://tataplay.slivcdn.com/hls/live/2020593/SONYSIXHD/master.m3u8",
+                "channel_url": "https://edge2.roarzone.net:8447/roarzone/edge3/sony_sports_5_hd/tracks-v1a1/mono.m3u8",
                 "link_type" : "none"
             },
             {
@@ -402,7 +423,7 @@
             
             {
                 "link_title": "Ten Cricket",
-                "channel_url": "https://edge3-moblive.yuppcdn.net/drm/smil:tencricketdrm.smil/manifest.mpd?|drmScheme=clearkey&drmLicense=9872e439f21f4a299cab249c6554daa3:0cdfcfe0d0f1fbe100554ce3ef4c4665",
+                "channel_url": "https://edge2.roarzone.net:8447/roarzone/edge3/ten_cricket/tracks-v1a1/mono.m3u8",
                 "link_type" : "none"
             },
             
@@ -435,20 +456,15 @@
         "channel_links": [
             {
                 "link_title": "T Sports",
+                "channel_url": "https://tvsen7.aynaott.com/tsports-hd/tracks-v1a1/mono.ts.m3u8",
+                "link_type" : "none"
+            },
+            {
+                "link_title": "T Sports",
                 "channel_url": "167590.m3u8",
                 "link_type" : "opplex"
-            },
-            {
-                "link_title": "T Sports ( Server 2 )",
-                "channel_url": "http://kst.moonplex.net:8080/CH2/index.m3u8",
-                "link_type" : "none"
-            },
-
-            {
-                "link_title": "T Sports ( Server 3 )",
-                "channel_url": "https://live.tsports.com/mobile_hls/tsports_live_2/playlist.m3u8",
-                "link_type" : "none"
             }
+
         ]
     },
     
@@ -589,7 +605,7 @@
                },
             {
                 "link_title": "Willow By Cricbuzz",
-                "channel_url": "https://a166aivottlinear-a.akamaihd.net/OTTB/lhr-nitro/live/clients/dash/enc/jwsgpgb4sa/out/v1/fba6fb5bc2a8475685d7c699dd59ca3a/cenc.mpd|drmScheme=clearkey&drmLicense=d3c924f8358e22b66de5f33733d9f3f0:fad4b95bbbafc7ac3e221851aa29bb04",
+                "channel_url": "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
                 "link_type" : "none"
                },
             {
