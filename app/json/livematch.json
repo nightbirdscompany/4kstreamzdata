@@ -45,45 +45,79 @@
       
 
       {
-    "team1_name": "Preston North End",
-    "team2_name": "Leicester City",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/21/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/31/image",
-    "time": "1755352800000",
-    "league_name": "Football || Championship",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
+    "team1_name": "South Korea",
+    "team2_name": "Czechia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4735/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4714/image",
+    "time": "1781229600000",
+    "league_name": "Football || FIFA WORLD CUP 2026",
+    "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
 
            {
-                "link_title": "Sport TV",
-                "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash-sd/enc/rkhugudynd/out/v1/f7763e695c3b469594ed89fa163ebf0c/cenc-sd.mpd?|drmScheme=clearkey&drmLicense=eaea45512d137def15b209a089cafd14:8d42db746ed0c4df61729b0d68d42bd7"
-            },
-           {
-                "link_title": "MBC",
-                "channel_url": "https://shls-live-ak.akamaized.net/out/v1/0965e4d7deae49179172426cbfb3bc5e/index_6.m3u8"
-            }
+                "link_title": "FIFA PLUS",
+                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+           }
         ]
     
   },
 
 
 {
-    "team1_name": "Wolverhampton",
-    "team2_name": "Manchester City",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/17/image",
-    "time": "1755361800000",
-    "league_name": "Football || Premier League 2025/2026, Round 1",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/17/image",
+    "team1_name": "Canada",
+    "team2_name": "Bosnia",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4752/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4479/image",
+    "time": "1781290800000",
+    "league_name": "Football || FIFA WORLD CUP 2026",
+    "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
 
            {
-                "link_title": "TNT 1",
-                "channel_url": "https://ottb.live.cf.ww.aiv-cdn.net/lhr-nitro/live/clients/dash/enc/wf8usag51e/out/v1/bd3b0c314fff4bb1ab4693358f3cd2d3/cenc.mpd?|drmScheme=clearkey&drmLicense=ae26845bd33038a9c0774a0981007294:63ac662dde310cfb4cc6f9b43b34196d"
+                "link_title": "FIFA PLUS",
+                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
            }
-    ]
+        ]
+    
+  },
+
+  {
+    "team1_name": "USA",
+    "team2_name": "Paraguay",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4724/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4789/image",
+    "time": "1781312400000",
+    "league_name": "Football || FIFA WORLD CUP 2026",
+    "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
+    "category": "Football",
+    "live_links": [
+
+           {
+                "link_title": "FIFA PLUS",
+                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+           }
+        ]
+    
+  },
+
+  {
+    "team1_name": "Qatar",
+    "team2_name": "Switzerland",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4792/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4699/image",
+    "time": "1781377200000",
+    "league_name": "Football || FIFA WORLD CUP 2026",
+    "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
+    "category": "Football",
+    "live_links": [
+
+           {
+                "link_title": "FIFA PLUS",
+                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+           }
+        ]
     
   }
 
