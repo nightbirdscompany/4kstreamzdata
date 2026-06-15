@@ -19,8 +19,8 @@
 
              
             {
-                "link_title": "TSN",
-                "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
            },
             {
                 "link_title": "Sport TV",
@@ -52,8 +52,8 @@
 
              
             {
-                "link_title": "TSN",
-                "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
            },
             {
                 "link_title": "Sport TV",
@@ -85,8 +85,8 @@
 
              
             {
-                "link_title": "TSN",
-                "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
            },
             {
                 "link_title": "Sport TV",
@@ -118,8 +118,8 @@
 
              
             {
-                "link_title": "TSN",
-                "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/7janu55dwc/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=e51aa21f2a0fef9aabc120dfb655b52f:a12a987fe725a40b6be95cd84b15f689"
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
            },
             {
                 "link_title": "Sport TV",
@@ -143,11 +143,24 @@
     "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
+ {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
-           }
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
+       }
         ]
     
   },
@@ -163,9 +176,23 @@
     "category": "Football",
     "live_links": [
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+            {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
+
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -181,10 +208,23 @@
     "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
+ {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -200,10 +240,23 @@
     "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
+ {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -219,10 +272,23 @@
     "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
     "category": "Football",
     "live_links": [
+ {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -240,8 +306,22 @@
     "live_links": [
 
            {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
+
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -258,9 +338,23 @@
     "category": "Football",
     "live_links": [
 
-           {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+            {
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
+
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
@@ -278,8 +372,22 @@
     "live_links": [
 
            {
-                "link_title": "FIFA PLUS",
-                "channel_url": "https://a62dad94.wurl.com/manifest/f36d25e7e52f1ba8d7e56eb859c636563214f541/UmFrdXRlblRWLWV1X0ZJRkFQbHVzRW5nbGlzaF9ITFM/a8cfe4a1-30d8-4b6b-93bb-a0198fa15aaa/1.m3u8"
+                "link_title": "TELEMUNDO",
+                "channel_url": "https://live-oneapp-prd-news.akamaized.net/Content/CMAF_OL2-CTR-4s-v2/Live/channel(kvea)/master.mpd?|drmScheme=clearkey&drmLicense=ce7ab3022e753307997f58afe001bac4:72d631a66e635c60829a0fe7705516c1"
+           },   
+
+             
+            {
+                "link_title": "FOX",
+                "channel_url": "https://otte-tim.live.pv-cdn.net/pdx-nitro/live/clients/enc/i4k83ags6o/out/v1/9e895e2c1c894a75ac6d21a4deddd5d3/cenc.mpd?|drmScheme=clearkey&drmLicense=f6564ec2aee819046328a0e153be574d:ff46a8a1031eb27ef22576a077c98ab7"
+           },
+            {
+                "link_title": "Sport TV",
+                "channel_url": "https://a151aivottlinear-a.akamaihd.net/OTTB/sin-nitro/live/dash/enc/m7duvnk2bu/out/v1/d1ad69118b5647309b1eb7213affdb3d/cenc.mpd?|drmScheme=clearkey&drmLicense=4bbcff3289d457b4dd5dbdd21221de9a:c4906b9a9f8dda3c0725bddb8c497733"
+           },
+       {
+                "link_title": "CAZE TV",
+                "channel_url": "https://dfr80qz435crc.cloudfront.net/MNOP/Amagi/Caze/Caze_TV_BR/1080p-vtt/index.m3u8"
            }
         ]
     
