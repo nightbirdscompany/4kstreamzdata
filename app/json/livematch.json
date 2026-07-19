@@ -1,61 +1,6 @@
 [
 
 
-
-
-  {
-    "team1_name": "France",
-    "team2_name": "England",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4481/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4713/image",
-    "time": "1784408400000",
-    "league_name": "Football || FIFA WORLD CUP 2026",
-    "league_icon": "https://www.sofascore.com/static/images/tournaments/world-cup-2026-logo.webp",
-    "category": "Football",
-    "live_links": [
-
-      
-
-     {
-                "link_title": "Bein Sports",
-                "channel_url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
-            },
-      
-     {
-                "link_title": "Somoy",
-                "channel_url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
-            },
-
-       {
-                "link_title": "Soco",
-                "channel_url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783366103-0-0-22529c3f65969c7cdd810209a64927e6"
-           },
-      {
-                "link_title": "TIPIK FR FHD",
-                "channel_url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd?|drmScheme=clearkey&drmLicense=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a"
-           },
-     {
-    "link_title": "Ruski",
-    "channel_url": "https://video.beeline.tv/live/d/channel319.isml/manifest-stb.mpd?|drmScheme=clearkey&drmLicense=9145a6e0f778e61866f573d4944dd533:d02173d40515fea5c83944f21d0f3114"
-  },
-
-     {
-                "link_title": "Toffee",
-                "channel_url": "https://cdn-spotixa.pages.dev/ch1.m3u8"
-           },
-      
-     {
-                "link_title": "Bein Sports",
-                "channel_url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
-            },
-
-      {
-                "link_title": "Bein Sports",
-                "channel_url": "https://1nyaler.streamhostingcdn.top/stream/23/index.m3u8"
-           }
-        ]
-    
-  },
   {
     "team1_name": "Spain",
     "team2_name": "Argentina",
@@ -67,6 +12,12 @@
     "category": "Football",
     "live_links": [
 
+      {
+                
+                "link_title": "Soco",
+                "channel_url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783366103-0-0-22529c3f65969c7cdd810209a64927e6"
+           },
+
       
      {
                 "link_title": "Bein Sports",
@@ -79,11 +30,7 @@
                 "channel_url": "https://live.thebosstv.com:30443/dwlive/Somoy-TV/chunks.m3u8"
             },
 
-       {
-                
-                "link_title": "Soco",
-                "channel_url": "https://pull.niues.live/live/stream-9912060_lhd.m3u8?auth_key=1783366103-0-0-22529c3f65969c7cdd810209a64927e6"
-           },
+       
       {
                 "link_title": "TIPIK FR FHD",
                 "channel_url": "https://c9851ec-rbm-hilv-fsly.cdn.redbee.live/L26/6b640fa2/a765d074.isml/dash/.mpd?|drmScheme=clearkey&drmLicense=adca25b8779e4168a0cd710f59f61ccf:be5383ed3cd8079f4ffe78ad067f476a"
