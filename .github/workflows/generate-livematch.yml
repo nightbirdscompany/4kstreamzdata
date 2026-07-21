@@ -9,7 +9,6 @@ on:
     paths:
       - 'scripts/generate_livematch.py'
       - '.github/workflows/generate-livematch.yml'
-      - 'scripts/requirements.txt'
 
 permissions:
   contents: write
@@ -31,14 +30,17 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          # Remove cache or specify the correct path
           cache: 'pip'
           cache-dependency-path: 'scripts/requirements.txt'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r scripts/requirements.txt
+          if [ -f "scripts/requirements.txt" ]; then
+            pip install -r scripts/requirements.txt
+          else
+            pip install requests pytz
+          fi
 
       - name: Run Python script to generate livematch.json
         run: |
