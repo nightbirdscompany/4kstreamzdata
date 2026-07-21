@@ -19,6 +19,10 @@ SOURCE_URL = "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Liv
 # Output file path
 OUTPUT_FILE = "app/json/livematch.json"
 
+# Fallback intro video URL (when no streams are available)
+FALLBACK_VIDEO_URL = "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+FALLBACK_VIDEO_TITLE = "Intro"
+
 # Category icons mapping - EDIT THIS TO CUSTOMIZE ICONS
 CATEGORY_ICONS = {
     "Cricket": "https://img.icons8.com/color/96/000000/cricket.png",
@@ -145,14 +149,25 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         league_icon = CATEGORY_ICONS.get(category, "")
         timestamp = convert_bdt_to_utc_timestamp(start_time)
         
+        # Build live links
         live_links = []
-        for stream in streams:
-            stream_url = stream.get("stream_url", "")
-            if stream_url:
-                live_links.append({
-                    "link_title": match_event_name or f"{team_a} vs {team_b}",
-                    "channel_url": stream_url
-                })
+        
+        # If streams exist, use them
+        if streams:
+            for stream in streams:
+                stream_url = stream.get("stream_url", "")
+                if stream_url:
+                    live_links.append({
+                        "link_title": match_event_name or f"{team_a} vs {team_b}",
+                        "channel_url": stream_url
+                    })
+        else:
+            # No streams available - add fallback intro video
+            print(f"   ℹ️  No streams for {team_a} vs {team_b}, adding intro video")
+            live_links.append({
+                "link_title": FALLBACK_VIDEO_TITLE,
+                "channel_url": FALLBACK_VIDEO_URL
+            })
         
         transformed = {
             "team1_name": team_a,
@@ -211,6 +226,17 @@ def main():
         print(f"\n📄 Generated: {OUTPUT_FILE}")
         print(f"   File size: {os.path.getsize(OUTPUT_FILE)} bytes")
         print(f"   Matches: {len(transformed_matches)}")
+        
+        # Print preview with live links info
+        print("\n📋 Preview (first 2 matches):")
+        for i, match in enumerate(transformed_matches[:2], 1):
+            print(f"\n  Match {i}:")
+            print(f"    Teams: {match['team1_name']} vs {match['team2_name']}")
+            print(f"    Category: {match['category']}")
+            print(f"    League: {match['league_name']}")
+            print(f"    Live links: {len(match['live_links'])}")
+            if match['live_links']:
+                print(f"    First link: {match['live_links'][0]['link_title']}")
         
         print("\n✅ Done!")
         sys.exit(0)
