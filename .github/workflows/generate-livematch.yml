@@ -1,0 +1,112 @@
+name: Generate Live Match JSON
+
+on:
+  schedule:
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/generate_livematch.py'
+      - '.github/workflows/generate-livematch.yml'
+
+permissions:
+  contents: write
+  actions: read
+
+jobs:
+  generate-and-push:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests pytz
+
+      - name: Run Python script to generate livematch.json
+        run: |
+          python scripts/generate_livematch.py
+        env:
+          PYTHONUNBUFFERED: 1
+
+      - name: Validate generated JSON
+        run: |
+          if [ ! -f "app/json/livematch.json" ]; then
+            echo "❌ Error: livematch.json was not generated!"
+            exit 1
+          fi
+          
+          echo "📊 Generated matches:"
+          python -c "import json; data=json.load(open('app/json/livematch.json')); print(f'  Total matches: {len(data)}')"
+          
+          if [ $(cat app/json/livematch.json | wc -c) -lt 10 ]; then
+            echo "❌ Error: Generated JSON file is too small or empty!"
+            exit 1
+          fi
+          
+          echo "✅ JSON validation passed"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if git status --porcelain | grep -q "app/json/livematch.json"; then
+            echo "changes_detected=true" >> $GITHUB_OUTPUT
+            echo "📝 Changes detected in livematch.json"
+          else
+            echo "changes_detected=false" >> $GITHUB_OUTPUT
+            echo "✅ No changes detected. No commit needed."
+          fi
+
+      - name: Commit and push changes
+        if: steps.check_changes.outputs.changes_detected == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          git add app/json/livematch.json
+          git commit -m "chore: update live match data [skip ci]
+          
+          Automated update of live match data.
+          Generated from: https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
+          
+          git push origin main
+
+      - name: Upload artifact (for debugging)
+        uses: actions/upload-artifact@v4
+        with:
+          name: livematch-json
+          path: app/json/livematch.json
+          retention-days: 7
+
+      - name: Print summary
+        if: always()
+        run: |
+          echo "## 📊 Workflow Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Generated File:** \`app/json/livematch.json\`" >> $GITHUB_STEP_SUMMARY
+          echo "**Raw URL:** https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/main/app/json/livematch.json" >> $GITHUB_STEP_SUMMARY
+          
+          if [ -f "app/json/livematch.json" ]; then
+            COUNT=$(python -c "import json; print(len(json.load(open('app/json/livematch.json'))))")
+            echo "**Total Matches:** $COUNT" >> $GITHUB_STEP_SUMMARY
+          fi
+          
+          if [ "${{ steps.check_changes.outputs.changes_detected }}" == "true" ]; then
+            echo "**Status:** ✅ Changes committed and pushed" >> $GITHUB_STEP_SUMMARY
+          else
+            echo "**Status:** ℹ️ No changes detected" >> $GITHUB_STEP_SUMMARY
+          fi
