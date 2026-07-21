@@ -19,9 +19,8 @@ SOURCE_URL = "https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Liv
 # Output file path
 OUTPUT_FILE = "app/json/livematch.json"
 
-# Fallback intro video URL (when no streams are available)
+# Fallback video URL when no streams are available
 FALLBACK_VIDEO_URL = "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-FALLBACK_VIDEO_TITLE = "Intro"
 
 # Category icons mapping - EDIT THIS TO CUSTOMIZE ICONS
 CATEGORY_ICONS = {
@@ -152,8 +151,8 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         # Build live links
         live_links = []
         
-        # If streams exist, use them
-        if streams:
+        # If streams exist and are not empty, use them
+        if streams and len(streams) > 0:
             for stream in streams:
                 stream_url = stream.get("stream_url", "")
                 if stream_url:
@@ -163,9 +162,9 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                     })
         else:
             # No streams available - add fallback intro video
-            print(f"   ℹ️  No streams for {team_a} vs {team_b}, adding intro video")
+            print(f"   ℹ️  No streams found for {team_a} vs {team_b}, adding intro video")
             live_links.append({
-                "link_title": FALLBACK_VIDEO_TITLE,
+                "link_title": "Intro",
                 "channel_url": FALLBACK_VIDEO_URL
             })
         
@@ -209,7 +208,8 @@ def main():
                 transformed = transform_match(match)
                 if transformed:
                     transformed_matches.append(transformed)
-                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')}")
+                    live_links_count = len(transformed.get('live_links', []))
+                    print(f"   ✓ Match {idx}: {transformed.get('team1_name')} vs {transformed.get('team2_name')} (Links: {live_links_count})")
                 else:
                     skipped += 1
                     print(f"   ✗ Match {idx}: Skipped")
@@ -227,16 +227,16 @@ def main():
         print(f"   File size: {os.path.getsize(OUTPUT_FILE)} bytes")
         print(f"   Matches: {len(transformed_matches)}")
         
-        # Print preview with live links info
-        print("\n📋 Preview (first 2 matches):")
-        for i, match in enumerate(transformed_matches[:2], 1):
-            print(f"\n  Match {i}:")
-            print(f"    Teams: {match['team1_name']} vs {match['team2_name']}")
-            print(f"    Category: {match['category']}")
-            print(f"    League: {match['league_name']}")
-            print(f"    Live links: {len(match['live_links'])}")
-            if match['live_links']:
-                print(f"    First link: {match['live_links'][0]['link_title']}")
+        # Count matches with intro fallback
+        intro_count = 0
+        for match in transformed_matches:
+            for link in match.get('live_links', []):
+                if link.get('link_title') == "Intro":
+                    intro_count += 1
+                    break
+        
+        if intro_count > 0:
+            print(f"   ℹ️  {intro_count} matches have intro video fallback")
         
         print("\n✅ Done!")
         sys.exit(0)
