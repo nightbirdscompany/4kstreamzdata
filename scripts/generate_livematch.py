@@ -23,7 +23,7 @@ OUTPUT_FILE = "app/json/livematch.json"
 FALLBACK_VIDEO_URL = "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
 
 # Fallback image URL when team flags are missing
-FALLBACK_IMAGE_URL = "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/images/placeholder_team.png"
+FALLBACK_IMAGE_URL = "https://via.placeholder.com/96x96/cccccc/666666?text=Team"
 
 # Category icons mapping - EDIT THIS TO CUSTOMIZE ICONS
 CATEGORY_ICONS = {
@@ -120,13 +120,14 @@ def convert_bdt_to_utc_timestamp(start_time: str) -> str:
         return str(int(datetime.now().timestamp() * 1000))
 
 
-def get_valid_image_url(url: str) -> str:
+def get_valid_url(url: str, fallback: str = None) -> str:
     """
-    Return a valid image URL. If the URL is empty or None, return the fallback image.
+    Return a valid URL. If the URL is empty or None, return the fallback.
+    If no fallback is provided, use FALLBACK_IMAGE_URL.
     """
-    if url and url.strip():
+    if url and isinstance(url, str) and url.strip():
         return url.strip()
-    return FALLBACK_IMAGE_URL
+    return fallback if fallback else FALLBACK_IMAGE_URL
 
 
 def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
@@ -135,8 +136,8 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         event_info = match.get("eventInfo", {})
         streams = match.get("streams", [])
         
-        team_a = event_info.get("teamA", "")
-        team_b = event_info.get("teamB", "")
+        team_a = event_info.get("teamA", "Unknown")
+        team_b = event_info.get("teamB", "Unknown")
         team_a_flag = event_info.get("teamAFlag", "")
         team_b_flag = event_info.get("teamBFlag", "")
         start_time = event_info.get("startTime", "")
@@ -157,7 +158,10 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         else:
             league_name = "Unknown League"
         
+        # Get league icon with fallback
         league_icon = CATEGORY_ICONS.get(category, "")
+        league_icon = get_valid_url(league_icon, "https://via.placeholder.com/96x96/cccccc/666666?text=Sport")
+        
         timestamp = convert_bdt_to_utc_timestamp(start_time)
         
         # Build live links
@@ -167,22 +171,23 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         if streams and len(streams) > 0:
             for stream in streams:
                 stream_url = stream.get("stream_url", "")
-                if stream_url:
+                if stream_url and stream_url.strip():
                     live_links.append({
                         "link_title": match_event_name or f"{team_a} vs {team_b}",
-                        "channel_url": stream_url
+                        "channel_url": stream_url.strip()
                     })
-        else:
-            # No streams available - add fallback intro video
-            print(f"   ℹ️  No streams found for {team_a} vs {team_b}, adding intro video")
+        
+        # If no live links were added, add the intro video
+        if not live_links:
+            print(f"   ℹ️  No valid streams found for {team_a} vs {team_b}, adding intro video")
             live_links.append({
                 "link_title": "Intro",
                 "channel_url": FALLBACK_VIDEO_URL
             })
         
-        # Ensure image URLs are valid (not empty)
-        team_a_flag = get_valid_image_url(team_a_flag)
-        team_b_flag = get_valid_image_url(team_b_flag)
+        # Ensure ALL image URLs are valid (not empty)
+        team_a_flag = get_valid_url(team_a_flag)
+        team_b_flag = get_valid_url(team_b_flag)
         
         transformed = {
             "team1_name": team_a,
@@ -243,25 +248,25 @@ def main():
         print(f"   File size: {os.path.getsize(OUTPUT_FILE)} bytes")
         print(f"   Matches: {len(transformed_matches)}")
         
-        # Count matches with intro fallback
-        intro_count = 0
-        empty_flag_count = 0
-        for match in transformed_matches:
-            # Check for intro fallback
+        # Check for any empty URLs in the output
+        print("\n🔍 Validating generated JSON...")
+        has_empty_urls = False
+        for i, match in enumerate(transformed_matches):
+            for key, value in match.items():
+                if isinstance(value, str) and (not value or not value.strip()):
+                    print(f"   ⚠️  Match {i+1} has empty field: {key}")
+                    has_empty_urls = True
+            # Check live_links
             for link in match.get('live_links', []):
-                if link.get('link_title') == "Intro":
-                    intro_count += 1
-                    break
-            # Check for empty flags (using fallback)
-            if match.get('team1_logo_url') == FALLBACK_IMAGE_URL:
-                empty_flag_count += 1
-            elif match.get('team2_logo_url') == FALLBACK_IMAGE_URL:
-                empty_flag_count += 1
+                for key, value in link.items():
+                    if isinstance(value, str) and (not value or not value.strip()):
+                        print(f"   ⚠️  Match {i+1} live_link has empty field: {key}")
+                        has_empty_urls = True
         
-        if intro_count > 0:
-            print(f"   ℹ️  {intro_count} matches have intro video fallback")
-        if empty_flag_count > 0:
-            print(f"   ℹ️  {empty_flag_count} matches have placeholder team logos")
+        if has_empty_urls:
+            print("   ❌ WARNING: Found empty URL fields in generated JSON!")
+        else:
+            print("   ✅ All URL fields are valid")
         
         print("\n✅ Done!")
         sys.exit(0)
