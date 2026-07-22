@@ -1,5 +1,21 @@
 [
   {
+    "team1_name": "Southern Brave",
+    "team2_name": "Welsh Fire",
+    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784617249540x302men.jpg",
+    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784617249540x302men.jpg",
+    "time": "1784741400000",
+    "league_name": "Cricket || The Hundred Men'S Competition 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Southern Brave Vs Welsh Fire",
+        "channel_url": "https://saseries.akamaized.net/hls/live/2110097/2356jkiL-tapmad/master.m3u8"
+      }
+    ]
+  },
+  {
     "team1_name": "Galle Gallants",
     "team2_name": "Dambulla Sixers",
     "team1_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Galle-Gallants.png",
@@ -80,22 +96,6 @@
     ]
   },
   {
-    "team1_name": "Day 3",
-    "team2_name": "Austria",
-    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
-    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-LOC@2x.png",
-    "time": "1784709000000",
-    "league_name": "Tennis || Atp 250 - Generali Open 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/tennis-ball.png",
-    "category": "Tennis",
-    "live_links": [
-      {
-        "link_title": "Day 3",
-        "channel_url": "https://bd-mc-pdlive.fancode.com/mumbai/143505_english_hls_32d7fbdda521157_1ta-di_h264/index.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Atp 250 - Millenium Estoril Open 2026",
     "team2_name": "Portugal",
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/lawn-tennis-flags/FC-ATP@2x.png",
@@ -164,22 +164,6 @@
     "league_name": "Baseball || Mlb",
     "league_icon": "https://via.placeholder.com/96x96/cccccc/666666?text=Sport",
     "category": "Baseball",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Southern Brave",
-    "team2_name": "Welsh Fire",
-    "team1_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1784617249540x302men.jpg",
-    "team2_logo_url": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelTVImage/1784617249540x302men.jpg",
-    "time": "1784741400000",
-    "league_name": "Cricket || The Hundred Men'S Competition 2026",
-    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
-    "category": "Cricket",
     "live_links": [
       {
         "link_title": "Intro",
@@ -289,7 +273,7 @@
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
     "time": "1784779200000",
-    "league_name": "Cricket || Pakistan Women Tour Of Sri Lanka, 2026",
+    "league_name": "Cricket || Pakistan Women'S Tour Of Sri Lanka, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -513,7 +497,7 @@
     "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-SRL@2x.png",
     "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-PAK@2x.png",
     "time": "1784952000000",
-    "league_name": "Cricket || Pakistan Women Tour Of Sri Lanka, 2026",
+    "league_name": "Cricket || Pakistan Women'S Tour Of Sri Lanka, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
@@ -546,6 +530,22 @@
     "team2_logo_url": "https://www.fancode.com/skillup-uploads/cms-media/Kandy-Royals.png",
     "time": "1784970000000",
     "league_name": "Cricket || Lanka Premier League, 2026",
+    "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
+    "category": "Cricket",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Zimbabwe",
+    "team2_name": "India",
+    "team1_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-ZIM@2x.png",
+    "team2_logo_url": "https://d13ir53smqqeyp.cloudfront.net/flags/cr-flags/FC-IND@2x.png",
+    "time": "1784975400000",
+    "league_name": "Cricket || India Tour Of Zimbabwe, 2026",
     "league_icon": "https://img.icons8.com/color/96/000000/cricket.png",
     "category": "Cricket",
     "live_links": [
