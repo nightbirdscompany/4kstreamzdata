@@ -130,6 +130,26 @@ def get_valid_url(url: str, fallback: str = None) -> str:
     return fallback if fallback else FALLBACK_IMAGE_URL
 
 
+def build_stream_url(stream_url: str, drm_key: str = None) -> str:
+    """
+    Build the final stream URL with DRM parameters if drm_key is provided.
+    """
+    if not stream_url or not stream_url.strip():
+        return ""
+    
+    stream_url = stream_url.strip()
+    
+    # If drm_key exists, append DRM parameters
+    if drm_key and drm_key.strip():
+        # Check if URL already has query parameters
+        if '?' in stream_url:
+            return f"{stream_url}&drmScheme=clearkey&drmLicense={drm_key.strip()}"
+        else:
+            return f"{stream_url}?drmScheme=clearkey&drmLicense={drm_key.strip()}"
+    
+    return stream_url
+
+
 def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
     """Transform a single match from source format to target format."""
     try:
@@ -171,10 +191,19 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
         if streams and len(streams) > 0:
             for stream in streams:
                 stream_url = stream.get("stream_url", "")
+                drm_key = stream.get("drm_key", "")
+                stream_name = stream.get("name", "")
+                
                 if stream_url and stream_url.strip():
+                    # Build the final URL with DRM if available
+                    final_url = build_stream_url(stream_url, drm_key)
+                    
+                    # Use stream name as link_title, fallback to event_name
+                    link_title = stream_name if stream_name and stream_name.strip() else match_event_name or f"{team_a} vs {team_b}"
+                    
                     live_links.append({
-                        "link_title": match_event_name or f"{team_a} vs {team_b}",
-                        "channel_url": stream_url.strip()
+                        "link_title": link_title,
+                        "channel_url": final_url
                     })
         
         # If no live links were added, add the intro video
