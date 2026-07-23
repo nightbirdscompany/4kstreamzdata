@@ -133,19 +133,28 @@ def get_valid_url(url: str, fallback: str = None) -> str:
 def build_stream_url(stream_url: str, drm_key: str = None) -> str:
     """
     Build the final stream URL with DRM parameters if drm_key is provided.
+    Removes everything after .mpd before appending DRM parameters with ?|
+    
+    Example:
+        Input: "https://example.com/stream.mpd|user-agent=Mozilla/5.0"
+        DRM: "123456789"
+        Output: "https://example.com/stream.mpd?|drmScheme=clearkey&drmLicense=123456789"
     """
     if not stream_url or not stream_url.strip():
         return ""
     
     stream_url = stream_url.strip()
     
-    # If drm_key exists, append DRM parameters
+    # Remove everything after .mpd (including |user-agent=...)
+    if '.mpd' in stream_url:
+        # Find the position of .mpd and keep everything up to and including .mpd
+        mpd_pos = stream_url.find('.mpd')
+        if mpd_pos != -1:
+            stream_url = stream_url[:mpd_pos + 4]  # +4 to include '.mpd'
+    
+    # If drm_key exists, append DRM parameters with ?|
     if drm_key and drm_key.strip():
-        # Check if URL already has query parameters
-        if '?' in stream_url:
-            return f"{stream_url}&drmScheme=clearkey&drmLicense={drm_key.strip()}"
-        else:
-            return f"{stream_url}?drmScheme=clearkey&drmLicense={drm_key.strip()}"
+        return f"{stream_url}?|drmScheme=clearkey&drmLicense={drm_key.strip()}"
     
     return stream_url
 
