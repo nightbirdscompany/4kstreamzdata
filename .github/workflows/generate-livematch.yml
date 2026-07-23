@@ -2,8 +2,8 @@ name: Generate Live Match JSON
 
 on:
   schedule:
-    # Run every 5 minutes
-    - cron: '*/5 * * * *'
+    # Run every 4 hours
+    - cron: '0 */4 * * *'
   workflow_dispatch:
   push:
     paths:
@@ -25,52 +25,21 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
           fetch-depth: 0
-          persist-credentials: true
-
-      - name: Debug - Check repository status
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "Files: $(ls -la)"
-          echo "Git status:"
-          git status
-          echo "Git remote:"
-          git remote -v
-          echo "Current branch:"
-          git branch --show-current
 
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
-          cache: 'pip'
-          cache-dependency-path: 'scripts/requirements.txt'
 
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          if [ -f "scripts/requirements.txt" ]; then
-            pip install -r scripts/requirements.txt
-          else
-            pip install requests pytz
-          fi
+          pip install requests pytz
 
       - name: Create necessary directories
         run: |
           mkdir -p scripts
           mkdir -p app/json
-
-      - name: Verify Python script exists
-        run: |
-          if [ ! -f "scripts/generate_livematch.py" ]; then
-            echo "❌ Error: scripts/generate_livematch.py not found!"
-            echo "Creating it now..."
-            cat > scripts/generate_livematch.py << 'EOF'
-            # Python script content will be here
-            # Make sure to copy the complete script
-            EOF
-            exit 1
-          fi
-          echo "✅ Python script found"
 
       - name: Run Python script to generate livematch.json
         run: |
@@ -101,7 +70,6 @@ jobs:
           if git status --porcelain | grep -q "app/json/livematch.json"; then
             echo "changes_detected=true" >> $GITHUB_OUTPUT
             echo "📝 Changes detected in livematch.json"
-            git status --porcelain
           else
             echo "changes_detected=false" >> $GITHUB_OUTPUT
             echo "✅ No changes detected. No commit needed."
@@ -113,18 +81,13 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           
-          # Ensure we're on the correct branch
-          git fetch origin
-          git checkout main || git checkout master || echo "Using current branch"
-          
           git add app/json/livematch.json
           git commit -m "chore: update live match data [skip ci]
           
           Automated update of live match data.
           Generated from: https://raw.githubusercontent.com/sm-monirulislam/Upcoming-and-Live-Sports-Data/refs/heads/main/Sports_data.json"
           
-          # Try pushing with different methods
-          git push origin main || git push origin master || git push --force origin main
+          git push origin main
 
       - name: Upload artifact (for debugging)
         uses: actions/upload-artifact@v4
