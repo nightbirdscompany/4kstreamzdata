@@ -7,6 +7,7 @@ Auto-removes matches based on sport-specific time limits:
 - Football, Basketball, Baseball: 4 hours
 - Cricket: 12 hours
 Supports event_logo for league icons.
+Supports both drm_key and kid+key DRM formats.
 """
 
 import json
@@ -341,15 +342,20 @@ def get_valid_url(url: str, fallback: str = None) -> str:
     return fallback if fallback else FALLBACK_IMAGE_URL
 
 
-def build_stream_url(stream_url: str, drm_key: str = None) -> str:
+def build_stream_url(stream_url: str, drm_key: str = None, kid: str = None, key: str = None) -> str:
     """
-    Build the final stream URL with DRM parameters if drm_key is provided.
-    Removes everything after .mpd before appending DRM parameters with ?|
+    Build the final stream URL with DRM parameters.
+    Supports both drm_key format and kid+key format.
     
-    Example:
-        Input: "https://example.com/stream.mpd|user-agent=Mozilla/5.0"
-        DRM: "123456789"
-        Output: "https://example.com/stream.mpd?|drmScheme=clearkey&drmLicense=123456789"
+    Examples:
+        1. drm_key format: "drm_key" -> "?|drmScheme=clearkey&drmLicense=drm_key"
+        2. kid+key format: kid="abc", key="123" -> "?|drmScheme=clearkey&drmLicense=abc:123"
+    
+    Args:
+        stream_url: The stream URL
+        drm_key: Combined DRM key (format: "kid:key")
+        kid: Key ID (used with key parameter)
+        key: Key value (used with kid parameter)
     """
     if not stream_url or not stream_url.strip():
         return ""
@@ -363,9 +369,21 @@ def build_stream_url(stream_url: str, drm_key: str = None) -> str:
         if mpd_pos != -1:
             stream_url = stream_url[:mpd_pos + 4]  # +4 to include '.mpd'
     
-    # If drm_key exists, append DRM parameters with ?|
-    if drm_key and drm_key.strip():
-        return f"{stream_url}?|drmScheme=clearkey&drmLicense={drm_key.strip()}"
+    # Build DRM license string
+    drm_license = None
+    
+    # Priority 1: Use kid + key combination (new format)
+    if kid and key and kid.strip() and key.strip():
+        drm_license = f"{kid.strip()}:{key.strip()}"
+        print(f"   🔑 Using kid+key DRM format: {drm_license[:20]}...")
+    # Priority 2: Use combined drm_key (old format)
+    elif drm_key and drm_key.strip():
+        drm_license = drm_key.strip()
+        print(f"   🔑 Using drm_key format: {drm_license[:20]}...")
+    
+    # If DRM license exists, append to URL with ?|
+    if drm_license:
+        return f"{stream_url}?|drmScheme=clearkey&drmLicense={drm_license}"
     
     return stream_url
 
@@ -448,9 +466,19 @@ def transform_match(match: Dict[str, Any]) -> Optional[Dict[str, Any]]:
                 # Support both "name" and "channel_name" fields
                 stream_name = stream.get("name", "") or stream.get("channel_name", "")
                 
+                # Get kid and key for new DRM format
+                kid = stream.get("kid", "")
+                key = stream.get("key", "")
+                
+                # Get user_agent if available (for future use)
+                user_agent = stream.get("user_agent", "")
+                
                 if stream_url and stream_url.strip():
-                    # Build the final URL with DRM if available
-                    final_url = build_stream_url(stream_url, drm_key)
+                    # Build the final URL with DRM if available (supports both formats)
+                    final_url = build_stream_url(stream_url, drm_key, kid, key)
+                    
+                    # If user_agent exists, we could append it, but keeping it simple for now
+                    # You can extend this to add user_agent to the URL if needed
                     
                     # Use stream name if available, otherwise use match name
                     if stream_name and stream_name.strip():
@@ -506,6 +534,7 @@ def main():
     print("   • Cricket: 12 hours")
     print("   • Other sports: 6 hours (default)")
     print("📋 League icon priority: event_logo > category icon > fallback")
+    print("📋 DRM support: drm_key (combined) OR kid+key (separate)")
     print("=" * 50)
     
     try:
