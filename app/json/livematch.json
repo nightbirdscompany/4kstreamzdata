@@ -1,12 +1,32 @@
 [
   {
-    "team1_name": "AEK Athens U19",
-    "team2_name": "LASK Linz U19",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/297065/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1271520/image",
-    "time": "1788858000000",
-    "league_name": "Football || UEFA Youth League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+    "team1_name": "Brazil U20",
+    "team2_name": "Canada U20",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/43216/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48990/image",
+    "time": "1788872400000",
+    "league_name": "Football || U-20 Women's World Championship",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/804/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "FOX2 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "link_title": "TSN5 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Benin U20",
+    "team2_name": "Argentina U20",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/395974/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48992/image",
+    "time": "1788872400000",
+    "league_name": "Football || U-20 Women's World Championship",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/804/image/dark",
     "category": "Football",
     "live_links": [
       {
@@ -16,13 +36,13 @@
     ]
   },
   {
-    "team1_name": "FC Porto U19",
-    "team2_name": "Manchester City U19",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/78117/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/120856/image",
-    "time": "1788865200000",
-    "league_name": "Football || UEFA Youth League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
+    "team1_name": "Mashujaa FC",
+    "team2_name": "Singida Black Stars SC",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/376323/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/353799/image",
+    "time": "1788872400000",
+    "league_name": "Football || Tanzanian Premier League",
+    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2353/image/dark",
     "category": "Football",
     "live_links": [
       {
@@ -44,70 +64,34 @@
       {
         "link_title": "TNT2 SPORTS HD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      }
-    ]
-  },
-  {
-    "team1_name": "Brazil U20",
-    "team2_name": "Canada U20",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/43216/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48990/image",
-    "time": "1788872400000",
-    "league_name": "Football || U-20 Women's World Championship",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/804/image/dark",
-    "category": "Football",
-    "live_links": [
+      },
       {
-        "link_title": "FOX2 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/GTTTAdd.m3u8?"
       }
     ]
   },
   {
-    "team1_name": "Benin U20",
-    "team2_name": "Argentina U20",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/395974/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/48992/image",
-    "time": "1788872400000",
-    "league_name": "Football || U-20 Women's World Championship",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/804/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Lille U19",
-    "team2_name": "Real Betis U19",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/296213/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/275789/image",
-    "time": "1788872400000",
+    "team1_name": "FC Porto U19",
+    "team2_name": "Manchester City U19",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/78117/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/120856/image",
+    "time": "1788865200000",
     "league_name": "Football || UEFA Youth League",
     "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Mashujaa FC",
-    "team2_name": "Singida Black Stars SC",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/376323/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/353799/image",
-    "time": "1788872400000",
-    "league_name": "Football || Tanzanian Premier League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2353/image/dark",
-    "category": "Football",
-    "live_links": [
+        "link_title": "LOW QUALITY (USE VPN)",
+        "channel_url": "http://193.47.62.41/hls/GTTTAd.m3u8?"
+      },
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "MUTV SPORTS HD 2",
+        "channel_url": "https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-dash.mpd"
+      },
+      {
+        "link_title": "MUTV SPORTS HD 3",
+        "channel_url": "https://fastly.live.brightcove.com/6374054671112/eu-west-1/6058004203001/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJob3N0IjoiYXplMnp5LmVncmVzcy55ODN1ZWIiLCJhY2NvdW50X2lkIjoiNjA1ODAwNDIwMzAwMSIsImVobiI6ImZhc3RseS5saXZlLmJyaWdodGNvdmUuY29tIiwiaXNzIjoiYmxpdmUtcGxheWJhY2stc291cmNlLWFwaSIsInN1YiI6InBhdGhtYXB0b2tlbiIsImF1ZCI6WyI2MDU4MDA0MjAzMDAxIl0sImp0aSI6IjYzNzQwNTQ2NzExMTIifQ.3FmuTna3DAmY7xlhK5fk6LMrosrtrR5VsU2QOgYO5y4/playlist-hls.m3u8"
       }
     ]
   },
@@ -128,22 +112,10 @@
       {
         "link_title": "REAL MADRID TV - ES",
         "channel_url": "https://rmtv.akamaized.net/hls/live/2043153/rmtv-es-web/master.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Borussia Dortmund U19",
-    "team2_name": "Villarreal U19",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/43719/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/206355/image",
-    "time": "1788876000000",
-    "league_name": "Football || UEFA Youth League",
-    "league_icon": "http://api.sofascore.com/api/v1/unique-tournament/2132/image/dark",
-    "category": "Football",
-    "live_links": [
+      },
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "SKY SPORT ",
+        "channel_url": "https://dlstreams.st/stream/stream-559.php"
       }
     ]
   },
@@ -158,8 +130,12 @@
     "category": "Cricket",
     "live_links": [
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "T SPORTS HD",
+        "channel_url": "https://tvsen7.aynascope.net/Sports1/index.m3u8"
+      },
+      {
+        "link_title": "WILLOW2 HD",
+        "channel_url": "http://tvsen5.aynascope.net/willowhd/index.m3u8"
       }
     ]
   },
@@ -174,8 +150,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -190,8 +166,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
@@ -224,6 +200,10 @@
       {
         "link_title": "FOX2 SPORTS FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
+      },
+      {
+        "link_title": "TUDN MEXICO FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/o2vy4aahsh/out/v1/e293c932745a44dcaf897573dfc53532/cenc.mpd?|drmScheme=clearkey&drmLicense=763ce1ebcaf23502c8cf357c6ef423e1:0c5e6c0820a1ea28753721db00272411"
       }
     ]
   },
@@ -290,8 +270,8 @@
     "category": "Football",
     "live_links": [
       {
-        "link_title": "STREAM TV + LIVE ",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
       }
     ]
   },
