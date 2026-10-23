@@ -1,208 +1,100 @@
 [
   {
-    "team1_name": "NASCAR CUP SERIES",
-    "team2_name": "NASCAR CUP SERIES",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOeG9TGJiz9rMn-n50BXYx-Z0O0L31Qb125w2wJw9yQ&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOeG9TGJiz9rMn-n50BXYx-Z0O0L31Qb125w2wJw9yQ&s=10",
-    "time": "1792773120000",
-    "league_name": "Motorsports || NASCAR",
-    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfOeG9TGJiz9rMn-n50BXYx-Z0O0L31Qb125w2wJw9yQ&s=10",
+    "team1_name": "Formula 1",
+    "team2_name": "Formula 1",
+    "team1_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
+    "team2_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
+    "time": "1792776600000",
+    "league_name": "Motorsports || Formula 1",
+    "league_icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisf1lphGAPsJzz9s89f8AVGiITtEZIrt3Xwg1u-SlmqQtIH13DRgSeOLExqvR4u0jaEtlAtfFyqqBXgBEnw9hP9BWoKQpErNFyEDJkKU4zXuIeqaFoQORWs3fnGWd2o6_TazAZn5ihmLgmNdbGmnWCnUQKP_BfRj44Lpck_OtE49p7n2Kk6k6KWjHOTsA/s1600/1000009765.jpg",
     "category": "Motorsports",
     "live_links": [
       {
-        "link_title": "FOX2 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      },
-      {
-        "link_title": "FOX1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/fsu3wl2rwb/out/v1/be61206c04e643349d53fb22301f3b50/cenc.mpd?|drmScheme=clearkey&drmLicense=5466ebd70704bdeb657f0abf3c5ca4ef:bdd79b72d8e48ed483aa623cc38a8a16"
-      },
-      {
         "link_title": "TSN5 SPORTS FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+      },
+      {
+        "link_title": "TSN2 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd?|drmScheme=clearkey&drmLicense=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0"
+      },
+      {
+        "link_title": "FANCODE FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd?|drmScheme=clearkey&drmLicense=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
+      },
+      {
+        "link_title": "SporTV3 BR FHD",
+        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?|drmScheme=clearkey&drmLicense=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3"
+      },
+      {
+        "link_title": "FORMULA TV HD",
+        "channel_url": "https://admin2.formaturamaxi.com.br/f1.m3u8"
+      },
+      {
+        "link_title": "FORMULA + HD",
+        "channel_url": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?&.m3u8"
+      },
+      {
+        "link_title": "TSN1 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "link_title": "Formula 1 GP USA",
+        "channel_url": "http://193.47.62.41/hls/ATTT.m3u8"
+      },
+      {
+        "link_title": "HD QUALITY",
+        "channel_url": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?"
+      },
+      {
+        "link_title": "SKY F1 Italia [IT]",
+        "channel_url": "https://g006-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1791088034_f~0_g~1_s~2aa71a64-9a1e-470d-a104-24c2be9656fc_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_k~A_l~70_x~dae629d427e5eb3f6d206f4c0586a1d8/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd?|drmScheme=clearkey&drmLicense=1118a6477fbf274ef4ab397ae762cb61:31ba7c00dc9667233ecb2a6e7e24ee08"
       }
     ]
   },
   {
-    "team1_name": "Snooker",
-    "team2_name": "Snooker",
-    "team1_logo_url": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
-    "team2_logo_url": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
-    "time": "1792758720000",
-    "league_name": "Other || Snooker",
-    "league_icon": "https://pbs.twimg.com/profile_images/1818178290231787520/UgacIQ2j_400x400.jpg",
-    "category": "Other",
+    "team1_name": "MotorGP",
+    "team2_name": "MotorGP",
+    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
+    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
+    "time": "1792789200000",
+    "league_name": "Motorsports || MotorGP",
+    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
+    "category": "Motorsports",
     "live_links": [
       {
-        "link_title": "TNT1UK SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|drmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
+        "link_title": "TNT2UK SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
       },
       {
-        "link_title": "TNT4UK SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/tdijwiga2k/out/v1/f5fde318678f4f7583bf27b7231bde1f/cenc.mpd?|drmScheme=clearkey&drmLicense=fa34fa8c90336dd528c7a23871cad1fe:552a78d1aeb74f1650d68255c5749408"
-      },
-      {
-        "link_title": "1 QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/PTTTA.m3u8"
-      },
-      {
-        "link_title": "2 QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/PTTTAA.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Zimbabwe",
-    "team2_name": "Afghanistan",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/187745/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/187575/image",
-    "time": "1792755000000",
-    "league_name": "Cricket || ODI Tri-Series in United Arab Emirates",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/37663/image/dark",
-    "category": "Cricket",
-    "live_links": [
-      {
-        "link_title": "WILLOW FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd?|drmScheme=clearkey&drmLicense=dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-      },
-      {
-        "link_title": "WILLOW ALT",
-        "channel_url": "https://abfjk4haaaaaaaamkitc5445rybm6.bia-cf.live.pv-cdn.net/iad-nitro/live/clients/dash/enc/l981pjuwly/out/v1/2b68c46ab6cf46be958417bc58a35161/cenc.mpd?|drmScheme=clearkey&drmLicense=dbad433264aa645af31c76701ae83e38:f8fb07f5bc0a587bf4faa5ca640b1c00"
-      },
-      {
-        "link_title": "WILLOW SPORTS",
-        "channel_url": "https://live-pv-ta.amazon.fastly-edge.com/lhr-nitro/live/clients/dash/enc/tll6uwepxa/out/v1/a7f67cbb33df46539312956427343886/cenc.mpd?|drmScheme=clearkey&drmLicense=290e09c837da78d5cd961978d390515c:b748836c71e6a4ca68ef5b5652db6247"
-      },
-      {
-        "link_title": "FANCODE FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/twcny8iyym/out/v1/83184682abbf4c7fbc78b64266100dbd/cenc.mpd?|drmScheme=clearkey&drmLicense=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "link_title": "FANCODE FHD",
+        "link_title": "FANCODE1 FHD",
         "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
       },
       {
-        "link_title": "T SPORTS HD",
-        "channel_url": "http://103.151.60.162:2122/play/a030/index.m3u8?hls"
-      }
-    ]
-  },
-  {
-    "team1_name": "Akhmat Grozny",
-    "team2_name": "Orenburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5131/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/24118/image",
-    "time": "1792773000000",
-    "league_name": "Football || Russian Premier League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/203/image/dark",
-    "category": "Football",
-    "live_links": [
+        "link_title": "MotoGP FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd?|drmScheme=clearkey&drmLicense=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
+      },
       {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "http://193.47.62.44/hls/UUU7AAAAAQQQQ.m3u8"
+        "link_title": "SP0TV FHD",
+        "channel_url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd?|drmScheme=clearkey&drmLicense=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
+      },
+      {
+        "link_title": "HD STREAMING",
+        "channel_url": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?"
       },
       {
         "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/UUU7AAAAAQQQQ.m3u8"
+        "channel_url": "http://193.47.62.59/hls/fddd.m3u8"
       }
     ]
   },
   {
-    "team1_name": "Darmstadt 98",
-    "team2_name": "FC St. Pauli",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2576/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2526/image",
-    "time": "1792773000000",
-    "league_name": "Football || 2. Bundesliga",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BeIN2 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "link_title": "HD QUALITY  ",
-        "channel_url": "https://live.vivo155.com/live/sd-1-4566576.m3u8?txSecret=44af3c8ac7267b390df83f662a3f0f5a&txTime=6ADB9F25"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/UUU7AAAAAQQQ.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "VfL Bochum 1848",
-    "team2_name": "VfL Wolfsburg",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2542/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2524/image",
-    "time": "1792773000000",
-    "league_name": "Football || 2. Bundesliga",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/44/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN3 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://live.vivo155.com/live/sd-1-4566642.m3u8?txSecret=59c137c9098144320850696e9db1c67a&txTime=6ADB9F44"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/UUU7AAAAAQQ.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Boluspor",
-    "team2_name": "Vanspor FK",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6414/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/24750/image",
-    "time": "1792774800000",
-    "league_name": "Football || Trendyol 1.Lig",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/98/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "http://193.47.62.44/hls/OOOOAAAAQ.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/OOOOAAAAQ.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Alanyaspor",
-    "team2_name": "Kocaelispor",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6362/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3065/image",
-    "time": "1792774800000",
-    "league_name": "Football || Trendyol Süper Lig",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/52/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "http://193.47.62.44/hls/OOOOAAAAQQ.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/OOOOAAAAQQ.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "IF Elfsborg",
-    "team2_name": "Malmö FF",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1762/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1892/image",
-    "time": "1792774800000",
-    "league_name": "Football || Allsvenskan",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/40/image/dark",
+    "team1_name": "Gimnasia y Esgrima Mendoza",
+    "team2_name": "Club Atlético Platense",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/188441/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36837/image",
+    "time": "1792791000000",
+    "league_name": "Football || Liga Profesional de Fútbol",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
     "category": "Football",
     "live_links": [
       {
@@ -212,13 +104,13 @@
     ]
   },
   {
-    "team1_name": "Västerås SK",
-    "team2_name": "Halmstads BK",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1775/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1767/image",
-    "time": "1792774800000",
-    "league_name": "Football || Allsvenskan",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/40/image/dark",
+    "team1_name": "Gimnasia y Esgrima",
+    "team2_name": "Sarmiento",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3205/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/42338/image",
+    "time": "1792789200000",
+    "league_name": "Football || Liga Profesional de Fútbol",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
     "category": "Football",
     "live_links": [
       {
@@ -228,50 +120,226 @@
     ]
   },
   {
-    "team1_name": "Al-Ittihad",
-    "team2_name": "Diriyah",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34315/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/853574/image",
-    "time": "1792769400000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
+    "team1_name": "Cruzeiro",
+    "team2_name": "Remo",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1954/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2012/image",
+    "time": "1792796400000",
+    "league_name": "Football || Campeonato Brasileiro Série A",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
     "category": "Football",
     "live_links": [
       {
-        "link_title": "FOX DEPORTES FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd?|drmScheme=clearkey&drmLicense=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/GGGGQQQQA.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://live2.jorvakstreamcache.com/live/channel6.m3u8?"
-      },
-      {
-        "link_title": "HD QUALITY 4",
-        "channel_url": "https://www.rtmpcdn.com/live/acbc11ca-495e-49bc-9d19-90a61c73a117.m3u8"
+        "link_title": "SPORT TV FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?|drmScheme=clearkey&drmLicense=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
       }
     ]
   },
   {
-    "team1_name": "Kauno Žalgiris",
-    "team2_name": "LDLC ASVEL Lyon-Villeurbanne",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6662/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3536/image",
-    "time": "1792774800000",
-    "league_name": "Basketball || Euroleague",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/138/image/dark",
+    "team1_name": "Boyacá Chicó FC",
+    "team2_name": "Atlético Bucaramanga",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6107/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/6103/image",
+    "time": "1792796400000",
+    "league_name": "Football || Primera A",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11539/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Toronto Argonauts",
+    "team2_name": "Montreal Alouettes",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4436/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4439/image",
+    "time": "1792796400000",
+    "league_name": "American football || CFL",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11208/image/dark",
+    "category": "American football",
+    "live_links": [
+      {
+        "link_title": "TSN5 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
+      },
+      {
+        "link_title": "TSN4 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd?|drmScheme=clearkey&drmLicense=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
+      },
+      {
+        "link_title": "TSN1 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
+      },
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Connecticut Huskies",
+    "team2_name": "Massachusetts Minutemen",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4382/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/188095/image",
+    "time": "1792796400000",
+    "league_name": "American football || NCAA Division FBS",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+    "category": "American football",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://cdn.streame.center/hls/sfjnzabacah31.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Virginia Cavaliers",
+    "team2_name": "Duke Blue Devils",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/61356/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4296/image",
+    "time": "1792796400000",
+    "league_name": "American football || NCAA Division FBS",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
+    "category": "American football",
+    "live_links": [
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://cdn.streame.center/hls/JHDAJBDnjdna30.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Boston Celtics",
+    "team2_name": "New York Knicks",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3422/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3421/image",
+    "time": "1792796400000",
+    "league_name": "Basketball || NBA",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
     "category": "Basketball",
     "live_links": [
       {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "http://193.47.62.44/hls/APPP.m3u8"
+        "link_title": "HD STREAMING ",
+        "channel_url": "https://cdn.streame.center/hls/wfazgsqtrezu66.m3u8"
       },
       {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/APPP.m3u8"
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Indiana Pacers",
+    "team2_name": "Dallas Mavericks",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3419/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3411/image",
+    "time": "1792796400000",
+    "league_name": "Basketball || NBA",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "HD STREAMING ",
+        "channel_url": "https://cdn.streame.center/hls/zayrtezafgvdv68.m3u8"
+      },
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/zayrtezafgvdv68.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Orlando Magic",
+    "team2_name": "Minnesota Timberwolves",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3437/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3426/image",
+    "time": "1792796400000",
+    "league_name": "Basketball || NBA",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "HD STREAMING ",
+        "channel_url": "https://cdn.streame.center/hls/zeafwqvhfe69.m3u8"
+      },
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Charlotte Hornets",
+    "team2_name": "Atlanta Hawks",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3430/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3423/image",
+    "time": "1792796400000",
+    "league_name": "Basketball || NBA",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "HD STREAMING ",
+        "channel_url": "https://cdn.streame.center/hls/hfsdqtaxvb67.m3u8"
+      },
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Washington Wizards",
+    "team2_name": "Toronto Raptors",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3431/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3433/image",
+    "time": "1792796400000",
+    "league_name": "Basketball || NBA",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
+    "category": "Basketball",
+    "live_links": [
+      {
+        "link_title": "HD STREAMING ",
+        "channel_url": "https://cdn.streame.center/hls/bvnsqdfvgha70.m3u8"
+      },
+      {
+        "link_title": "STREAM TV + HD",
+        "channel_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8"
+      }
+    ]
+  },
+  {
+    "team1_name": "Audax Italiano",
+    "team2_name": "Huachipato",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3162/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3164/image",
+    "time": "1792796400000",
+    "league_name": "Football || Liga de Primera",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11653/image/dark",
+    "category": "Football",
+    "live_links": [
+      {
+        "link_title": "Intro",
+        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
+      }
+    ]
+  },
+  {
+    "team1_name": "Canada",
+    "team2_name": "England",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/164600/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/164602/image",
+    "time": "1792796400000",
+    "league_name": "Rugby || WXV, Women",
+    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/21299/image/dark",
+    "category": "Rugby",
+    "live_links": [
+      {
+        "link_title": "TSN3 SPORTS FHD",
+        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|drmScheme=clearkey&drmLicense=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
       }
     ]
   },
@@ -444,70 +512,6 @@
     ]
   },
   {
-    "team1_name": "Formula 1",
-    "team2_name": "Formula 1",
-    "team1_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
-    "team2_logo_url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Formula_One_logo.svg/1280px-Formula_One_logo.svg.png",
-    "time": "1792776600000",
-    "league_name": "Motorsports || Formula 1",
-    "league_icon": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisf1lphGAPsJzz9s89f8AVGiITtEZIrt3Xwg1u-SlmqQtIH13DRgSeOLExqvR4u0jaEtlAtfFyqqBXgBEnw9hP9BWoKQpErNFyEDJkKU4zXuIeqaFoQORWs3fnGWd2o6_TazAZn5ihmLgmNdbGmnWCnUQKP_BfRj44Lpck_OtE49p7n2Kk6k6KWjHOTsA/s1600/1000009765.jpg",
-    "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "TSN5 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "link_title": "TSN2 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cjglydxghe/out/v1/8977baf175da4b94873194613dd3fe55/cenc.mpd?|drmScheme=clearkey&drmLicense=85b277daf5aae05833fe43a68f587968:d52d7e9bc0bcd98787efd547ac91eca0"
-      },
-      {
-        "link_title": "FANCODE FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd?|drmScheme=clearkey&drmLicense=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "link_title": "SporTV3 BR FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/gru-nitro/live/clients/dash/enc/6otiglnptp/out/v1/add7499679b0422cb6791f7701f95ecc/cenc.mpd?|drmScheme=clearkey&drmLicense=902e5ec0e3d05e665daa32fc23f4f59e:7b2322a273843921a43e2c61dac7cae3"
-      },
-      {
-        "link_title": "FORMULA + HD",
-        "channel_url": "https://chatgpt.hereisman.net/playlist/58439/load-playlist?&.m3u8"
-      },
-      {
-        "link_title": "TSN1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "link_title": "Formula 1 GP USA",
-        "channel_url": "http://193.47.62.41/hls/ATTT.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY",
-        "channel_url": "https://edgestream3.pro/hls/hbfkazbkaznc49.m3u8?"
-      },
-      {
-        "link_title": "SKY F1 Italia [IT]",
-        "channel_url": "https://g006-lin-it-cmaf-prd-sn.pcdn07.cssott02.com/v~1-0-0_e~1791088034_f~0_g~1_s~2aa71a64-9a1e-470d-a104-24c2be9656fc_u~fe3b84cbbdf5bc565dd1012e5306ba8dc943c4ee57b1c5b2555a972552c5c85df5468f3aaf797d103da27a492f48c64a_k~A_l~70_x~dae629d427e5eb3f6d206f4c0586a1d8/nowitlin2/Content/CMAF_CTR_H1/Live/channel(GmNkZkEhHwZyLEqoafQKOFLW)/master_2hr-all.mpd?|drmScheme=clearkey&drmLicense=1118a6477fbf274ef4ab397ae762cb61:31ba7c00dc9667233ecb2a6e7e24ee08"
-      }
-    ]
-  },
-  {
-    "team1_name": "DARTS PDC",
-    "team2_name": "DARTS PDC",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "time": "1792774920000",
-    "league_name": "Other || DARTS PDC",
-    "league_icon": "https://img.sofascore.com/api/v1/unique-tournament/751/image",
-    "category": "Other",
-    "live_links": [
-      {
-        "link_title": "Nova2 Sports FHD ",
-        "channel_url": "https://dash2.antik.sk/stream/nvidia_nova_sport2/playlist_cenc.mpd?|drmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    ]
-  },
-  {
     "team1_name": "England",
     "team2_name": "Pakistan",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/187757/image",
@@ -548,42 +552,6 @@
       {
         "link_title": "Link 1",
         "channel_url": "https://chatgpt.hereisman.net/playlist/55418/load-playlist?&.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "MotorGP",
-    "team2_name": "MotorGP",
-    "team1_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
-    "team2_logo_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
-    "time": "1792789200000",
-    "league_name": "Motorsports || MotorGP",
-    "league_icon": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_edH54wS35dUnT7EWMWImcprIRvpU0pFFJ0wArz-gQ&s=10",
-    "category": "Motorsports",
-    "live_links": [
-      {
-        "link_title": "TNT2UK SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/puehlftk5j/out/v1/f7f0da1ee112481ca0024e6d4dd97f4a/cenc.mpd?|drmScheme=clearkey&drmLicense=f3df7843080ae743bf865dc5fdf64c68:567c863bc12eb74788ea74888c042e1b"
-      },
-      {
-        "link_title": "FANCODE1 FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "link_title": "MotoGP FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/wjeweupwyc/out/v1/8197c8e055c94a868623653ac55c10bf/cenc.mpd?|drmScheme=clearkey&drmLicense=e03f302ec4dabcccca82cc9f76731ec9:53ea1027d2bf2893a552cf15bc0366de"
-      },
-      {
-        "link_title": "SP0TV FHD",
-        "channel_url": "https://qp-pldt-live-grp-13-prod.akamaized.net/out/u/dr_spotv2hd.mpd?|drmScheme=clearkey&drmLicense=7eea72d6075245a99ee3255603d58853:6848ef60575579bf4d415db1032153ed"
-      },
-      {
-        "link_title": "HD STREAMING",
-        "channel_url": "https://edgestream1.pro/hls/hbfkazbkaznc49.m3u8?"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.59/hls/fddd.m3u8"
       }
     ]
   },
@@ -660,178 +628,6 @@
     ]
   },
   {
-    "team1_name": "Granada",
-    "team2_name": "Real Valladolid",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/33779/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2831/image",
-    "time": "1792780200000",
-    "league_name": "Football || LaLiga 2",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Deportivo Alavés",
-    "team2_name": "Málaga CF",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2885/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2830/image",
-    "time": "1792782000000",
-    "league_name": "Football || LaLiga",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/8/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "ESPN DEPORTES HD",
-        "channel_url": "https://cdn.streame.center/hls/377qj1h2727.m3u8"
-      },
-      {
-        "link_title": "FANCODE1 FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/b3b3fkmrbl/out/v1/1084d5c9a97a4c5b9f9554c88f486646/cenc.mpd?|drmScheme=clearkey&drmLicense=82dfca238e8c4b430a3269db71965db9:a00b28caf4ac628e77a553d440c0ddca"
-      },
-      {
-        "link_title": "FANCODE2 FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd?|drmScheme=clearkey&drmLicense=1994b1df7dfd2e8a8d7b9bf3fb900285:22a1444b3da18e139191665b3d652835"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream1.pro/hls/.m3u8"
-      },
-      {
-        "link_title": "D SPORTS + FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/z5oyxzsxdk/out/v1/7695a0f64a0e424b973d5b09a2a3eb91/cenc.mpd?|drmScheme=clearkey&drmLicense=f836853d8eac19446ed9535f5fc568b1:b3bc5ef00602b29abac7e482d3d9fbf3"
-      }
-    ]
-  },
-  {
-    "team1_name": "Ipswich Town",
-    "team2_name": "Nottingham Forest",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/32/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/14/image",
-    "time": "1792782000000",
-    "league_name": "Football || Premier League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/17/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SKY SPORTS EPL - FHD",
-        "channel_url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=Dxx13S3dlOjavbRFqRtQ6g&e=2075285630&scheme="
-      }
-    ]
-  },
-  {
-    "team1_name": "Torino",
-    "team2_name": "Monza",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2696/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2729/image",
-    "time": "1792781100000",
-    "league_name": "Football || Serie A",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/23/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BeIN2 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/8m8cd46i1t/out/v1/83985c68e4174e90a58a1f2c024be4c9/cenc.mpd?|drmScheme=clearkey&drmLicense=0b42be2664d7e811d04f3e504e0924c5:ae24090123b8c72ac5404dc152847cb8"
-      },
-      {
-        "link_title": "CBS SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "link_title": "SPORT1 CZ FHD",
-        "channel_url": "https://dash2.antik.sk/stream/nvidia_sport_1/playlist_cenc.mpd?|drmScheme=clearkey&drmLicense=11223344556677889900112233445566:4b80724d0ef86bcb2c21f7999d67739d"
-      }
-    ]
-  },
-  {
-    "team1_name": "Stade Brestois",
-    "team2_name": "Nice",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1715/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/1661/image",
-    "time": "1792781100000",
-    "league_name": "Football || Ligue 1",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/34/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN3 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      }
-    ]
-  },
-  {
-    "team1_name": "VfB Stuttgart",
-    "team2_name": "Borussia M'gladbach",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2677/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2527/image",
-    "time": "1792780200000",
-    "league_name": "Football || Bundesliga",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/35/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SPORT TV FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?|drmScheme=clearkey&drmLicense=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      },
-      {
-        "link_title": "NBC SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/dx5hfbpk7u/out/v1/c14185a397544650b9761d43ad2e8e91/cenc.mpd?|drmScheme=clearkey&drmLicense=36a385124dcdfb2f0969935065e03afa:ccecd65514dff22eae493b975ccf9a9e"
-      }
-    ]
-  },
-  {
-    "team1_name": "Universidad Técnica de Cajamarca",
-    "team2_name": "Melgar",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/87854/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2308/image",
-    "time": "1792778400000",
-    "league_name": "Football || Liga 1 Te Apuesto",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/406/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Club Atlético Grau",
-    "team2_name": "Asociación Deportiva Tarma",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/282538/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/335557/image",
-    "time": "1792786500000",
-    "league_name": "Football || Liga 1 Te Apuesto",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/406/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gimnasia y Esgrima Mendoza",
-    "team2_name": "Club Atlético Platense",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/188441/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36837/image",
-    "time": "1792791000000",
-    "league_name": "Football || Liga Profesional de Fútbol",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "Tigre",
     "team2_name": "Atlético Tucumán",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/7628/image",
@@ -839,70 +635,6 @@
     "time": "1792800900000",
     "league_name": "Football || Liga Profesional de Fútbol",
     "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gimnasia y Esgrima",
-    "team2_name": "Sarmiento",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3205/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/42338/image",
-    "time": "1792789200000",
-    "league_name": "Football || Liga Profesional de Fútbol",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/155/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
-    "team1_name": "Vitória SC",
-    "team2_name": "CS Marítimo",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3009/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3007/image",
-    "time": "1792784700000",
-    "league_name": "Football || Liga Portugal Betclic",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/238/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Club Atlético de Madrid",
-    "team2_name": "Valencia",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/77879/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/77909/image",
-    "time": "1792776600000",
-    "league_name": "Football || Liga F Moeve",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/1127/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Go Ahead Eagles",
-    "team2_name": "SC Telstar",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2979/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2972/image",
-    "time": "1792778400000",
-    "league_name": "Football || VriendenLoterij Eredivisie",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/37/image/dark",
     "category": "Football",
     "live_links": [
       {
@@ -1088,22 +820,6 @@
     ]
   },
   {
-    "team1_name": "Cruzeiro",
-    "team2_name": "Remo",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/1954/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2012/image",
-    "time": "1792796400000",
-    "league_name": "Football || Campeonato Brasileiro Série A",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/325/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "SPORT TV FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w8kwdfmlgs/out/v1/3aa321e477504937a439b602e078eb18/cenc.mpd?|drmScheme=clearkey&drmLicense=51c0ef23b17297e5c01cd7f36dd0a6ce:8823f713ba6fdb9bbe0a2ad82d309a4b"
-      }
-    ]
-  },
-  {
     "team1_name": "Junior Barranquilla",
     "team2_name": "Rionegro Águilas Doradas",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/6105/image",
@@ -1120,22 +836,6 @@
     ]
   },
   {
-    "team1_name": "Boyacá Chicó FC",
-    "team2_name": "Atlético Bucaramanga",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/6107/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/6103/image",
-    "time": "1792796400000",
-    "league_name": "Football || Primera A",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11539/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "TRA United SC",
     "team2_name": "Young Africans SC",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/380759/image",
@@ -1148,50 +848,6 @@
       {
         "link_title": "STREAM TV + HD",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Toronto Argonauts",
-    "team2_name": "Montreal Alouettes",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4436/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4439/image",
-    "time": "1792796400000",
-    "league_name": "American football || CFL",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11208/image/dark",
-    "category": "American football",
-    "live_links": [
-      {
-        "link_title": "TSN5 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/cscevwljkq/out/v1/972185041b244140860b7d56398e9aaf/cenc.mpd?|drmScheme=clearkey&drmLicense=385ceb9714b75e0cef61254f80b31002:18dce92a2891fee68d21ede5173230f8"
-      },
-      {
-        "link_title": "TSN4 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/ihys8nw4wv/out/v1/fde190f369484bc6b6117cc16cd82a9f/cenc.mpd?|drmScheme=clearkey&drmLicense=abc5b2883121012850ebda05b528c5ec:e5250924f4b738905f7163a0134587a7"
-      },
-      {
-        "link_title": "TSN1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/w0rehjjrwe/out/v1/69a2a7041395406b970598f61680e7cf/cenc.mpd?|drmScheme=clearkey&drmLicense=14eeabf30c14b7fbf3008c03099ce011:17d2ac8dbc5429bd70af3433aa12158d"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Connecticut Huskies",
-    "team2_name": "Massachusetts Minutemen",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4382/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/188095/image",
-    "time": "1792796400000",
-    "league_name": "American football || NCAA Division FBS",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-    "category": "American football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://cdn.streame.center/hls/sfjnzabacah31.m3u8"
       }
     ]
   },
@@ -1224,22 +880,6 @@
       {
         "link_title": "STREAM TV + HD",
         "channel_url": "https://cdn.streame.center/hls/oipozuezeji33.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Virginia Cavaliers",
-    "team2_name": "Duke Blue Devils",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/61356/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4296/image",
-    "time": "1792796400000",
-    "league_name": "American football || NCAA Division FBS",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/32199/image/dark",
-    "category": "American football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://cdn.streame.center/hls/JHDAJBDnjdna30.m3u8"
       }
     ]
   },
@@ -1316,102 +956,6 @@
     ]
   },
   {
-    "team1_name": "Milwaukee Bucks",
-    "team2_name": "Chicago Bulls",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3410/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3409/image",
-    "time": "1792785600000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://cdn.streame.center/hls/mlkijfezag65.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Boston Celtics",
-    "team2_name": "New York Knicks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3422/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3421/image",
-    "time": "1792796400000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING ",
-        "channel_url": "https://cdn.streame.center/hls/wfazgsqtrezu66.m3u8"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/wfazgsqtrezu66.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Indiana Pacers",
-    "team2_name": "Dallas Mavericks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3419/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3411/image",
-    "time": "1792796400000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING ",
-        "channel_url": "https://cdn.streame.center/hls/zayrtezafgvdv68.m3u8"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/zayrtezafgvdv68.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Orlando Magic",
-    "team2_name": "Minnesota Timberwolves",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3437/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3426/image",
-    "time": "1792796400000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING ",
-        "channel_url": "https://cdn.streame.center/hls/zeafwqvhfe69.m3u8"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/zeafwqvhfe69.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Charlotte Hornets",
-    "team2_name": "Atlanta Hawks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3430/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3423/image",
-    "time": "1792796400000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING ",
-        "channel_url": "https://cdn.streame.center/hls/hfsdqtaxvb67.m3u8"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/hfsdqtaxvb67.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Miami Heat",
     "team2_name": "Detroit Pistons",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/3435/image",
@@ -1468,26 +1012,6 @@
       {
         "link_title": "STREAM TV + HD",
         "channel_url": "https://edgestream2.pro/hls/fdgsqdfawa73.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Washington Wizards",
-    "team2_name": "Toronto Raptors",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3431/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3433/image",
-    "time": "1792796400000",
-    "league_name": "Basketball || NBA",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/132/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "HD STREAMING ",
-        "channel_url": "https://cdn.streame.center/hls/bvnsqdfvgha70.m3u8"
-      },
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/bvnsqdfvgha70.m3u8"
       }
     ]
   },
@@ -1764,74 +1288,6 @@
     ]
   },
   {
-    "team1_name": "Al-Qadsiah",
-    "team2_name": "Al-Hilal",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/56027/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/21895/image",
-    "time": "1792778400000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "FOX DEPORTES FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/vkpoljjpkj/out/v1/502bcf68b3514cd28a220e6f0a43816f/cenc.mpd?|drmScheme=clearkey&drmLicense=d1a163914db8ffad2c3e94f979896a0d:9728800a3959aafdd5b0bcfbf3768811"
-      }
-    ]
-  },
-  {
-    "team1_name": "Al-Ahli",
-    "team2_name": "Al-Khaleej",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/34469/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/167228/image",
-    "time": "1792778400000",
-    "league_name": "Football || Saudi Pro League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/955/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Bolton Wanderers",
-    "team2_name": "Middlesbrough",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/5/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/36/image",
-    "time": "1792782000000",
-    "league_name": "Football || Championship",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/18/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "BEIN3 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/q4u5nwaogz/out/v1/18de6d3e65934f3a8de4358e69eab86c/cenc.mpd?|drmScheme=clearkey&drmLicense=7995c724a13748ed970840a8ab5bb9b3:67bdaf1e2175b9ff682fcdf0e2354b1e"
-      },
-      {
-        "link_title": "FOX2 SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/awxnrqkbo5/out/v1/716529a4091947b0877e6cb80dbd6ccb/cenc.mpd?|drmScheme=clearkey&drmLicense=09453ce820d65fbc675de3185f9e454c:98cff9600995fa381c76fdacf3c7edae"
-      }
-    ]
-  },
-  {
-    "team1_name": "Audax Italiano",
-    "team2_name": "Huachipato",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3162/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3164/image",
-    "time": "1792796400000",
-    "league_name": "Football || Liga de Primera",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/11653/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Intro",
-        "channel_url": "https://raw.githubusercontent.com/nightbirdscompany/4kstreamzdata/refs/heads/main/app/video/4K%20Streamz%20Intro.mp4"
-      }
-    ]
-  },
-  {
     "team1_name": "New Zealand",
     "team2_name": "France",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/164610/image",
@@ -1844,134 +1300,6 @@
       {
         "link_title": "SKY NZ HD 1",
         "channel_url": "https://edgestream2.pro/hls/.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Canada",
-    "team2_name": "England",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/164600/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/164602/image",
-    "time": "1792796400000",
-    "league_name": "Rugby || WXV, Women",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/21299/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "TSN3 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/lsibpqruq1/out/v1/748887d614a84913ba8bcdf3c82823e6/cenc.mpd?|drmScheme=clearkey&drmLicense=d3250252765347a0c2603c6cb4869f8c:0c19319460da7e9ed816db46ce839b37"
-      }
-    ]
-  },
-  {
-    "team1_name": "Gloucester Rugby",
-    "team2_name": "Bath Rugby",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4202/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4196/image",
-    "time": "1792781100000",
-    "league_name": "Rugby || Prem Rugby",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/424/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "TNT1UK SPORTS FHD ",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/rhf2dwosdt/out/v1/ee550d2a68d846c797e6ce4de2e8b76d/cenc.mpd?|drmScheme=clearkey&drmLicense=69a5aa835a061ce64a630d1046727e40:d02feac8a999bd06bf4059bf33411749"
-      }
-    ]
-  },
-  {
-    "team1_name": "Newcastle Red Bulls",
-    "team2_name": "Sale Sharks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4192/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4195/image",
-    "time": "1792781100000",
-    "league_name": "Rugby || Prem Rugby",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/424/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Cardiff Rugby",
-    "team2_name": "Sharks",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4215/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4187/image",
-    "time": "1792781100000",
-    "league_name": "Rugby || United Rugby Championship",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/419/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://edgestream2.pro/hls/.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Connacht Rugby",
-    "team2_name": "Zebre Rugby",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/8083/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/75331/image",
-    "time": "1792781100000",
-    "league_name": "Rugby || United Rugby Championship",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/419/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "PREMIER1 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/bom-nitro/live/clients/dash/enc/m6sqanvm2m/out/v1/f6beb46c6e9a4132ad739f3ca27df6aa/cenc.mpd?|drmScheme=clearkey&drmLicense=1444f4235529f183f0a5a486befe9cdb:e5e3fec67a1bb3472a2089c8a0a2557f"
-      }
-    ]
-  },
-  {
-    "team1_name": "Edinburgh Rugby",
-    "team2_name": "Fidelity ADT Lions",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4206/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/4184/image",
-    "time": "1792781100000",
-    "league_name": "Rugby || United Rugby Championship",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/419/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "PREMIERE2 SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/bcj3iscpd6/out/v1/fcd137b391214f7cb99dd4d7be90ca87/cenc.mpd?|drmScheme=clearkey&drmLicense=1a5df53609ebc9857898c490f4724918:77f62980d582ec541280796acf8b2d19"
-      }
-    ]
-  },
-  {
-    "team1_name": "Paris Basketball",
-    "team2_name": "Valencia Basket",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/295374/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3545/image",
-    "time": "1792781100000",
-    "league_name": "Basketball || Euroleague",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/138/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Olympiacos BC",
-    "team2_name": "Fenerbahçe Tarfin",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/3501/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/3514/image",
-    "time": "1792779300000",
-    "league_name": "Basketball || Euroleague",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/138/image/dark",
-    "category": "Basketball",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + HD",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
       }
     ]
   },
