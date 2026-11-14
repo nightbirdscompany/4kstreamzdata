@@ -80,46 +80,6 @@
     ]
   },
   {
-    "team1_name": "Manchester United",
-    "team2_name": "Crystal Palace",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/301455/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/234204/image",
-    "time": "1794660300000",
-    "league_name": "Football || Women's Super League",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/1044/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "CBS SPORTS FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/5qz8wmdome/out/v1/b9323e853dce427eac214b77bd48a204/cenc.mpd?|drmScheme=clearkey&drmLicense=d9623774ac5c8c351aafe97c5fe70267:5164e6d05164a2d65fa8fcc962aa4861"
-      },
-      {
-        "link_title": "SKY SPORTS PL FHD",
-        "channel_url": "https://bl.rutube.ru/livestream/e5bacac3b8e730791d4cab20ae81cd8f/index.m3u8?s=eXsDq9RXXLqUQkamaHEreA&e=2075749056&scheme=https"
-      },
-      {
-        "link_title": "SKY SPORTS EPL FHD",
-        "channel_url": "https://otte.live.fly.ww.aiv-cdn.net/iad-nitro/live/clients/dash/enc/qdbhkwig26/out/v1/c3a69dfec0434abea00756cd73e749ff/cenc.mpd?|drmScheme=clearkey&drmLicense=1106fb025da5b31657618344099c6c14:788284538616a73b56214e90196a6e0f"
-      },
-      {
-        "link_title": "SKY SPORTS MIX FHD",
-        "channel_url": "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/ttguqv2dus/out/v1/10e708fa029549e8807c7a35f4740adf/cenc.mpd?|drmScheme=clearkey&drmLicense=fa23a7c0d9c82f0c7b113506e202af8c:a883237ef30932b731f71aa59a0805c0"
-      },
-      {
-        "link_title": "HD QUALITY ",
-        "channel_url": "https://live.vivo155.com/live/hd-en-1-4603738.m3u8?txSecret=3de9e97c27f49dd9329e5a78cd770162&txTime=6AF86A6A"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.44/hls/KUUUAAAAA.m3u8"
-      },
-      {
-        "link_title": "HD QUALITY 4",
-        "channel_url": "https://www.rtmpcdn.com/live/p-da7c4d81095e47078b1a0757ee41e04e.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Chelsea FC",
     "team2_name": "Manchester City",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/66768/image",
@@ -168,11 +128,11 @@
     ]
   },
   {
-    "team1_name": "Real Valladolid",
-    "team2_name": "CD Castellón",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/2831/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/5067/image",
-    "time": "1794661200000",
+    "team1_name": "Real Sociedad B",
+    "team2_name": "Sporting Gijón",
+    "team1_logo_url": "https://img.sofascore.com/api/v1/team/24360/image",
+    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2852/image",
+    "time": "1794669300000",
     "league_name": "Football || LaLiga 2",
     "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
     "category": "Football",
@@ -736,22 +696,6 @@
     ]
   },
   {
-    "team1_name": "Zimbabwe",
-    "team2_name": "Uruguay",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/186787/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/42549/image",
-    "time": "1794668400000",
-    "league_name": "Rugby || Nations Cup",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/34898/image/dark",
-    "category": "Rugby",
-    "live_links": [
-      {
-        "link_title": "STREAM TV + RUGBY",
-        "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
     "team1_name": "Georgia",
     "team2_name": "Tonga",
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/7954/image",
@@ -800,26 +744,6 @@
       {
         "link_title": "STREAM TV + RUGBY",
         "channel_url": "https://file.genoads.com/ch1.m3u8"
-      }
-    ]
-  },
-  {
-    "team1_name": "Palestine",
-    "team2_name": "Iran",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/4788/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/24305/image",
-    "time": "1794661200000",
-    "league_name": "Football || Friendly Match",
-    "league_icon": "https://pbs.twimg.com/profile_images/683411718987476993/lZKQkOal_400x400.jpg",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "Link 1",
-        "channel_url": "http://193.47.62.59/hls/BEEEAA.m3u8"
-      },
-      {
-        "link_title": "LOW QUALITY (USE VPN)",
-        "channel_url": "http://193.47.62.59/hls/BEEEAA.m3u8"
       }
     ]
   },
@@ -1617,22 +1541,6 @@
     "team1_logo_url": "https://img.sofascore.com/api/v1/team/2851/image",
     "team2_logo_url": "https://img.sofascore.com/api/v1/team/24264/image",
     "time": "1794686400000",
-    "league_name": "Football || LaLiga 2",
-    "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
-    "category": "Football",
-    "live_links": [
-      {
-        "link_title": "LaLiga Hypermotion",
-        "channel_url": "https://cache07.zapitv.com/live/eds_c2/HYPERMOTION1/dash_live_ez/HYPERMOTION1.mpd?|drmScheme=clearkey&drmLicense=a88617e904504ee291f49f0e60a51d49:17f92d59fde3b6d2bf4ffb48e8ca720a"
-      }
-    ]
-  },
-  {
-    "team1_name": "Real Sociedad B",
-    "team2_name": "Sporting Gijón",
-    "team1_logo_url": "https://img.sofascore.com/api/v1/team/24360/image",
-    "team2_logo_url": "https://img.sofascore.com/api/v1/team/2852/image",
-    "time": "1794669300000",
     "league_name": "Football || LaLiga 2",
     "league_icon": "http://img.sofascore.com/api/v1/unique-tournament/54/image/dark",
     "category": "Football",
