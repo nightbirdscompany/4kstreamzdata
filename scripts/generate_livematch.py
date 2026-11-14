@@ -42,7 +42,7 @@ SPORT_EXPIRY_HOURS = {
     "Football": 4,
     "Basketball": 4,
     "Baseball": 4,
-    "Cricket": 12,
+    "Cricket": 10,
     "Tennis": 6,
     "Volleyball": 3,
     "Badminton": 3,
